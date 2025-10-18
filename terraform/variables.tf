@@ -7,6 +7,7 @@ variable "aws_region" {
 variable "bucket_name" {
   description = "S3 bucket name for website hosting"
   type        = string
+  default     = "avatarapp-website-2024"
 }
 
 variable "environment" {
